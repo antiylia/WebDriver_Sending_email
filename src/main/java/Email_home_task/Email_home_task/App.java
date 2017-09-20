@@ -11,7 +11,7 @@ public class App  {
     public static void main( String[] args ) {
     	AutoSenderEmail sender = new AutoSenderEmail();
     	WebDriver webDriver = sender.loginMailRu();
-    	sender.sendEmail (webDriver);
+    	// sender.sendEmail (webDriver);
     }
     
     
